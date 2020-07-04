@@ -8,5 +8,11 @@ pipeline {
               sh './gradlew'
       }
     }
+    stage('gradwel Test') {
+      steps {
+        sh './gradlew test'
+      }
+
+    }
   }
 }
