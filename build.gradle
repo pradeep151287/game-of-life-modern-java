@@ -56,14 +56,13 @@ dependencies {
     compile 'org.glassfish.jersey.containers:jersey-container-servlet-core:2.22.1'
     compile 'org.glassfish.jersey.ext:jersey-mvc:2.22.1'
     compile 'org.glassfish.jersey.ext:jersey-mvc-freemarker:2.22.1'
-    
+
     compile 'org.slf4j:slf4j-api:1.7.12'
     compile 'org.apache.logging.log4j:log4j-api:2.5'
     compile 'org.apache.logging.log4j:log4j-core:2.5'
     compile 'org.apache.logging.log4j:log4j-slf4j-impl:2.5'
 
     testCompile 'junit:junit:4.12'
-    testCompile 'org.seleniumhq.selenium:selenium-server:2.48.2'
     testCompile 'org.mockito:mockito-core:1.+'
     testCompile 'com.pholser:junit-quickcheck-core:0.6-alpha-2'
     testCompile 'com.pholser:junit-quickcheck-generators:0.6-alpha-2'
